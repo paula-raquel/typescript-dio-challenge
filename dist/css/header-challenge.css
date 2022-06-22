@@ -1,0 +1,4 @@
+section div .challenge{
+    display: flex;
+    flex-direction: row;
+}

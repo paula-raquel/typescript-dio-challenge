@@ -1,0 +1,17 @@
+{
+  "name": "typescript-dio-challenge",
+  "version": "1.0.0",
+  "description": "Desafio Bootcamp Santander - DIO",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "lite-server --baseDir=dist",
+    "start": "concurrently \"npm run watch\" \"npm run server\"",
+    "watch": "tsc"
+  },
+  "author": "Paula Raquel",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

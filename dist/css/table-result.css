@@ -1,0 +1,49 @@
+@import url(root.css);
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){
+    background-color: var(--zebrado-table-color)
+}
+  
+  th {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+  }
+
+.pagination {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.pagination a {
+    margin: 5px;
+    color: var(--secondary-color);
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pagination a.active {
+    background-color: var(--primary-color);
+    color:var(--white-color);
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color:var(--zebrado-table-color);
+}
+  

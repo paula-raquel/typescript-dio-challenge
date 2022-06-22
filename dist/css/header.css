@@ -1,0 +1,74 @@
+@import url(root.css);
+
+
+header{
+    background-color: var(--secondary-color);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header__section{
+    background-color: var(--primary-color);
+    width: 400px;
+    margin: 10px;
+    padding: 5px;
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+    border-radius: 8px;
+    height: auto;
+}
+
+
+.header__section:hover{
+    box-shadow: 0 0 2em var(--white-color);
+
+}
+
+.header__section--4{
+    width: 93%;
+}
+
+.header__section h2{
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.header__section strong{
+    color: var(--secondary-color);
+}
+
+.header__section p{
+    padding: 5px;
+    text-align: justify;
+}
+
+.link__text{
+    border: 0;
+    border-radius: 0%;
+    color: var(--secondary-color);
+    float: none;
+}
+
+.btn__view{
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: bold;
+    border: 1px solid var(--white-color);
+    border-radius: 8px;
+    background-color: var(--white-color);
+    float: right;
+}
+
+@media screen and  (max-width: 855px) {
+
+    
+    .header__section{
+        width: 95%;
+    }
+    
+}
