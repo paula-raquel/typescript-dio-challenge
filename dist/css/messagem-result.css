@@ -1,0 +1,27 @@
+@import url(root.css);
+
+.message{
+    width: 97%;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+.message-alert{
+    background-color: var(--lightred-color);
+    border: 2px solid var(--red-color);
+    box-shadow: 0 0 2em var(--lightred-color);
+}
+
+.message-info{
+    background-color: var(--lightblue-color);
+    border: 2px solid var(--blue-color);
+    box-shadow: 0 0 2em var(--lightblue-color);
+}
+
+.message-sucess{
+    background-color: var(--lightgreen-color);
+    border: 2px solid var(--green-color);
+    box-shadow: 0 0 2em var(--lightgreen-color);
+}

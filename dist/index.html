@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script type="module" src="js/app.js" defer></script>
     <script src="https://kit.fontawesome.com/55690d91ca.js" crossorigin="anonymous"></script>
-
     <title>Desafio TypeScript | DIO</title>
 </head>
 <body">
@@ -93,7 +91,7 @@
 
     </header>
     <main>
-        <section id="section__challenge1 "  class="section__background">
+        <section id="section__challenge1"  class="section__background">
             <div class="main__challenge">
                 <h2>Desafio 1</h2>
                 <i class="fa-solid fa-circle-info tooltip">  
@@ -102,37 +100,15 @@
             </div>
     
             <h3> Lista de Funcionários</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th scope="col">Código</th>
-                        <th scope="col">Nome</th>
-                    </tr>    
-                </thead>
-                <tbody>
-                    <tr>
-                        <td scope="row">1</td>
-                        <td>Paula Raquel</td>
-                    </tr>
-                    <tr>
-                        <td scope="row">2</td>
-                        <td>Ana Maria</td>
-                    </tr>
-                    <tr>
-                        <td scope="row">3</td>
-                        <td>Vitor Rocha</td>
-                    </tr>
-                    <tr>
-                        <td scope="row">4</td>
-                        <td>Mônica Silva</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <th scope="row">Total Registros</th>
-                    <td colspan="3">2</td>
-                </tfoot>            
-            </table>
-                
+            <div class="message-result">
+                <div class="message message-alert">Não foi possível salvar o registro.</div>
+                <div class="message message-info">Nenhum resultado encontrado.</div>
+                <div class="message message-sucess">Registro salvo com sucesso.</div>    
+            </div>
+
+            <div class="table__challenge1">
+            </div>
+              
             <div class="pagination">
                 <a href="">&laquo;</a>
                 <a href="">1</a>
@@ -149,7 +125,7 @@
                     <span class="tooltiptext">Inserir e listar os dados das pessoas em seu detalhamento (nome, idade e profissão).</span>            
                 </i>
             </div>
-    
+
             <form action="">
                 <label for="name">Nome:</label>
                 <input type="text" id="name" name="name" placeholder="Digite o seu Nome">
@@ -165,6 +141,14 @@
             </form>
     
             <h3> Listagem de Pessoas</h3>
+
+                        
+            <div class="message-result">
+                <div class="message message-alert">Não foi possível salvar o registro.</div>
+                <div class="message message-info">Nenhum resultado encontrado.</div>
+                <div class="message message-sucess">Registro salvo com sucesso.</div>    
+            </div>
+
             <table>
                 <thead>
                     <tr>
@@ -224,6 +208,13 @@
 
             <h4>"Seu saldo é R$:  <span id="saldoBancario">1550,00</span>"</h4>
             
+                        
+            <div class="message-result">
+                <div class="message message-alert">Não foi possível salvar o registro.</div>
+                <div class="message message-info">Nenhum resultado encontrado.</div>
+                <div class="message message-sucess">Registro salvo com sucesso.</div>    
+            </div>
+
             <h3>Extrato de Operações</h3>
             <table>
                 <thead>
@@ -287,5 +278,6 @@
             </a>    
         </div>
     </footer>
+    <script type="module" src="js/app.js"></script>
 </body>
 </html>

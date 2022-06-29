@@ -1,3 +1,5 @@
+import { EmployeeController } from "./controllers/employee-controller.js";
+import { Employees } from "./models/employees.js";
 
 /* Element HTML Scroll e Nav Fixed*/
 var divNavBtn = document.querySelector('.scroll') as HTMLDivElement;
@@ -15,3 +17,5 @@ window.addEventListener('scroll',()=>{
         }
     }
 });
+
+let challengeOne = new EmployeeController().popularDataEmployees();

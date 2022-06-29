@@ -1,5 +1,4 @@
-import { EmployeeController } from "./controllers/employee-controller.js";
-/* Element HTML Scroll e Nav Fixed*/
+import { Employee } from "./models/employee-model.js";
 var divNavBtn = document.querySelector('.scroll');
 var container = document.querySelector('.container');
 window.addEventListener('scroll', () => {
@@ -14,4 +13,16 @@ window.addEventListener('scroll', () => {
         }
     }
 });
-let challengeOne = new EmployeeController().popularDataEmployees();
+let employeeData = [
+    {
+        code: 1,
+        name: "Paula"
+    },
+    {
+        code: 2,
+        name: "Raquel"
+    }
+];
+console.log(employeeData);
+let test = new Employee(3, "Vitor");
+console.log(test);
